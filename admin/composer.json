@@ -33,7 +33,9 @@
         "symfony/web-link": "5.0.*",
         "symfony/yaml": "5.0.*",
         "vich/uploader-bundle": "^1.13",
-        "webonyx/graphql-php": "^0.13.8"
+        "webonyx/graphql-php": "^0.13.8",
+        "ext-intl": "*",
+        "ext-pdo_sqlite":"*"
     },
     "require-dev": {
         "api-platform/schema-generator": "^2.2",

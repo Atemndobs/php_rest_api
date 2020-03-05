@@ -1,0 +1,26 @@
+{
+  "name": "client-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-backend-build": "parcel index.html",
+    "watch": "parcel watch index.html",
+    "start client ": "node ./node_modules/parcel/bin/cli index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.24.4"
+  }
+}
+
+
+

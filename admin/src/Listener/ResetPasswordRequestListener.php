@@ -16,7 +16,8 @@ class ResetPasswordRequestListener
             ->setFrom('admin@example.com')
             ->setTo('user@example.com')
             ->setBody(
-                'You requested a new password. Use this link to reset your password: http://localhost:8000/api/users/'.$user_id.'/change-password?token='.$event->getUser()->getLostPassword()->getToken().'&password=here_new_password'
+                'You requested a new password. Use this link to reset your password: http://localhost:8000/api/users/'
+                .$user_id.'/change-password?token='.$event->getUser()->getLostPassword()->getToken().'&password=here_new_password'
             );
 
         $this->mailer->send($message);

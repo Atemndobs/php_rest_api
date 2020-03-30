@@ -1,7 +1,10 @@
 # php_rest_api
 A rest api with an admin area and two simple javascript clients for  consuming the api.
+
 Back end (admin):  symfony 5 application implementing most features of api platform. 
+
 client-backend : Vanila javascript application for testing out the api endpoints. 
+
 Front end (Client) : Another Vanila javascript application
 
 
